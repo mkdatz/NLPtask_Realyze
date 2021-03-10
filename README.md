@@ -12,7 +12,7 @@ At first, I thought it would be enough to count the words based on if there was 
 
 ## Running the solution
 
-Pull the repository to your local 
+Pull the repository to your local machine and run as you would any Java file.
 
 ```bash
 javac NLPtask.java
