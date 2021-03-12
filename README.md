@@ -9,6 +9,12 @@ The solution is written in Java and is run from the command line.
 
 At first, I thought it would be enough to count the words based on if there was whitespace at the end, but this approach had to change to account for corner cases.
 
+## Assumptions Made
+
+Firstly, assume a properly structured .txt file.
+Assume that paragraphs are separated by an "enter"/new line.
+Obviously assume that text is written in English.
+
 
 ## Running the solution
 
