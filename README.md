@@ -7,7 +7,9 @@ The solution is written in Java and is run from the command line.
 
 ## Thought Process
 
-At first, I thought it would be enough to count the words based on if there was whitespace at the end, but this approach had to change to account for corner cases.
+At first, I thought it would be enough to count the words based on if there was whitespace at the end, but this approach had to change to account for corner cases. As you can see by the sample text, this text includes dialogue- not every sentence will necessarily end with a period. Also, with abbreviations such as E.N.E., counting periods again does not work, because these would be counted as sentences.
+
+An elegant solution after I examined the text was that each sentence begins with a double space- "  " as opposed to " ". I could simply check for these and this would count as a sentence.
 
 ## Assumptions Made
 
