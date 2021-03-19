@@ -2,7 +2,7 @@
 
 This is my solution for the provided NLP task for Realyze Intelligence. Provided a normally formatted .txt file, returns the number of words, sentences, and paragraphs provided.
 
-The solution is written in Java and is run from the command line.
+The solution is written in Java and is run from the command line. No dependencies required.
 
 
 ## Thought Process
@@ -11,13 +11,23 @@ At first, I thought it would be enough to count the words based on if there was 
 
 An elegant solution after I examined the text was that each sentence begins with a double space- "  " as opposed to " ". I could simply check for these and this would count as a sentence.
 
+## Heuristics
+
+A sentence begins with a double space.
+
+A word is followed by a single space.
+
+A paragraph is denoted by a line of whitespace.
+
 ## Assumptions Made
 
 Firstly, assume a properly structured .txt file.
 
 Assume that paragraphs are separated by an "enter"/new line.
 
-Obviously assume that text is written in English.
+Obviously assume that text is written in proper English.
+
+Assume sentences are split by a "double space."
 
 
 ## Running the solution
