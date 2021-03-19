@@ -31,7 +31,7 @@ Assume sentences are split by a "double space."
 
 ## Running the solution
 
-Pull the repository to your local machine and run as you would any Java file. Please make sure to include the file extension. This is done from the command line:
+Pull the repository to your local machine (including the provided .txt file) and run as you would any Java file. Please make sure to include the file extension. This is done from the command line:
 
 ```bash
 javac NLPtask.java
